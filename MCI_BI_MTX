@@ -85,13 +85,13 @@
      POWER BI
   ====================================================== */
   const baseUrl =
-    "https://app.powerbi.com/view?r=eyJrIjoiMjdiMWVkOGQtYjMyOC00YmM0LWEwMjQtYWNkMWI0YzFhZmZiIiwidCI6IjhiNThmMjM4LWFmOGEtNDE3Ny1hM2U0LTg3YTllY2YxMGRkMyIsImMiOjR9";
+    "https://app.powerbi.com/view?r=eyJrIjoiNGJiZTMyNDUtMTUwZi00YmQ3LTg0NjItMzhmZTMzMTIxNjU2IiwidCI6IjhiNThmMjM4LWFmOGEtNDE3Ny1hM2U0LTg3YTllY2YxMGRkMyIsImMiOjR9";
 
   // ⚠️ Reemplaza por los pageName reales
   const pages = [
-    "ReportSection",
-    "ReportSection2",
-    "ReportSection3"
+    "ReportSection7add15cd52c30a28b768",
+    "ReportSection866caf4a0c0093758e70",
+    "ReportSection7add15cd52c30a28b768"
   ];
 
   const INTERVALO_SEGUNDOS = 30;
