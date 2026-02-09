@@ -12,17 +12,18 @@
       background: black;
       overflow: hidden;
     }
-
+/* ===== CONTENEDOR GENERAL ===== */
     .contenedor {
       display: flex;
+      flex-direction: column; /* 👈 uno encima del otro */
       width: 100%;
       height: 100%;
     }
 
     /* ===== VIDEO ===== */
     .zona-video {
-      width: 5%;
-      height: 20%;
+      width: 100%;
+      height: 15%;            /* 👈 altura del video (ajusta 10–20%) */
       background: #072040;
       display: flex;
       align-items: center;
@@ -30,15 +31,15 @@
     }
 
     .zona-video video {
-      width: 100%;
       height: 100%;
+      width: auto;            /* 👈 evita que se estire */
       object-fit: contain;
     }
 
     /* ===== POWER BI ===== */
     .zona-web {
-      width: 75%;
-      height: 100%;
+       width: 100%;
+       height: 85%;            /* 👈 el dashboard se agranda */
     }
 
     iframe {
